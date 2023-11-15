@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Mat</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Mat - Resume & vCard HTML Template">
+    <meta name="keywords" content="personal, vcard, portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/static/css/reset.css"/>
+    <link rel="stylesheet" href="/static/cubeportfolio/css/cubeportfolio.min.css"/>
+    <link rel="stylesheet" href="/static/css/owl.theme.css"/>
+    <link rel="stylesheet" href="/static/css/owl.carousel.css"/>
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <link rel="stylesheet" href="/static/css/colors/yellow.css" id="color"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900">
+    <link rel="stylesheet" href="/static/icon-fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/static/icon-fonts/web-design/flaticon.css"/>
+
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+<body>
+
+<div id="preloader">
+    <div class="spinner">
+    </div>
+</div>
+
+<div class="wrapper top_60 container">
+    <div class="row">
+
+        <div class="col-lg-3 col-md-4">
+            <div class="profile">
+                <div class="profile-name">
+                    <span>Daniil Halytskyi</span><br>
+                    <span class="job">Python Developer</span>
+                </div>
+                <figure class="profile-image">
+                    <img src="/static/images/profile.jpg" alt="">
+                </figure>
+                <ul class="profile-information">
+                    <li></li>
+                    <li><p><span>Birthday:</span> 22 Juli 2002</p></li>
+                    <li><p><span>Email:</span> haldaniko@gmail.com</p></li>
+                    <li><p><span>Phone: </span>+49-176-27169632<br></p></li>
+                </ul>
+                <div class="col-md-12">
+                    <button class="site-btn icon">Download Cv <i class="fa fa-download" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Tab Container Div -->
+        <div id="ajax-tab-container" class="col-lg-9 col-md-8 tab-container">
+
+            <!-- Header
+            ================================================== -->
+            <div class="row">
+                <header class="col-md-12">
+                    <nav>
+                        <div class="row">
+                            <!-- navigation bar -->
+                            <div class="col-md-8 col-sm-8 col-xs-4">
+                                <ul class="tabs">
+                                    <li class="tab">
+                                        <a class="home-btn" href="#home"><i class="fa fa-home"
+                                                                            aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="tab"><a href="/#resume">RESUME</a></li>
+                                    <li class="tab"><a href="/#portfolio">PORTFOLIO</a></li>
+                                    <li class="tab"><a href="/#certificates">CERTIFICATES</a></li>
+                                    <li class="tab"><a href="/#contact">CONTACT</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+                                <a target="_blank" class="black-link telegram" href="https://t.me/Haldwork">
+                                    <button class="pull-right site-btn icon hidden-xs">
+                                        Hire me!<i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                    </button>
+                                </a>
+                                <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars"
+                                                                                         aria-hidden="true"></i></div>
+                                <div class="hidden-md social-icons pull-right">
+                                    <a target="_blank" class="fb" href="https://www.facebook.com/haldaniko/"><i
+                                            class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a target="_blank" class="github" href="https://github.com/haldaniko"><i
+                                            class="fa fa-github" aria-hidden="true"></i></a>
+                                    <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/haldaniko/"><i
+                                            class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+
+            {% block container %} {% endblock %}
+
+            <!-- Footer
+            ================================================== -->
+            <footer>
+                <div class="footer col-md-12 top_30 bottom_30">
+                    <div class="name col-md-4 hidden-md hidden-sm hidden-xs">Daniil Halytskyi</div>
+                    <div class="copyright col-lg-8 col-md-12"><a href="https://themeforest.net/user/tavonline">© 2023
+                        All rights reserved.</a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+</div>
+
+<!-- Javascripts -->
+<script src="/static/js/jquery-2.1.4.min.js"></script>
+<script src="/static/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/jquery.easytabs.min.js"></script>
+<script src="/static/js/owl.carousel.min.js"></script>
+<script src="/static/js/main.js"></script>
+<!--&lt;!&ndash; for color alternatives &ndash;&gt;-->
+<!--<script src="/static/js/jquery.cookie-1.4.1.min.js"></script>-->
+<!--<script src="/static/js/Demo.js"></script>-->
+<!--<link rel="stylesheet" href="/static/css/Demo.min.css"/>-->
+
+
+</body>
+</html>
