@@ -2037,3 +2037,7 @@ figcaption {
 .black-link {
     color: black
 }
+
+.font-16 {
+    font-size: 16px;
+}
