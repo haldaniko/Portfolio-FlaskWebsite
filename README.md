@@ -3,9 +3,11 @@
 This is a Flask-based portfolio website designed to showcase my projects and skills. It includes features for
 downloading my CV and certificates, as well as a contact form for inquiries.
 
-Notice: This Flask project is outdated and does not serve as a true demonstration of my skills. For a more current
+
+<b>Notice:</b> This Flask project is outdated and does not serve as a true demonstration of my skills. For a more current
 showcase of my abilities, please visit my Django portfolio repository
 at https://github.com/haldaniko/Portfolio-DjangoWebsite.
+
 
 ## Features
 
